@@ -20,9 +20,7 @@ Once the installation of dependencies completed, we can start our pelican projec
 pelican-quickstart
 ```
 
-Reply to all the questions.
-
-Once done, multiple files will be generated including:
+Once all questions replied to, multiple files will be generated including:
 
 - Makefile
 - pelicanconf.py
@@ -35,8 +33,26 @@ Once done, multiple files will be generated including:
 pelican -s pelicanconf.py -o output content
 ```
 
-# First article in Markdown content
+# Write your first article in Markdown content
 
+Write your first article following this structure in the `output/` folder:
+
+``` markdown
+title: myTitle
+slug: my-slug
+tags: tag-1, tag-2, tag-3
+summary: The summary goes here
+
+The content will go here
+```
+
+# Run the local server
+
+``` shell
+make serve
+```
+
+And open your browser: http://localhost:8000
 
 # References
 
