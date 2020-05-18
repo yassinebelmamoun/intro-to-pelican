@@ -2,7 +2,7 @@
 
 Pelican is a static site generator written in Python.
 
-This document is a short and practical introduction to Pelican. Its main goal is to get up and running within 30 minutes.
+This document is a short and practical introduction to Pelican. Its main goal is to get you up and running within 30 minutes.
 
 # Installation
 
@@ -16,5 +16,3 @@ pipenv install pelican markdown typogrify
 # References
 
 Pelican website: https://docs.getpelican.com/en/stable/
-Hackercodex screencast: https://hackercodex.com/guide/pelican-static-site-generator-install/
-
