@@ -22,12 +22,21 @@ pelican-quickstart
 
 Reply to all the questions.
 
-Once done, multiple files will be generated:
+Once done, multiple files will be generated including:
 
 - Makefile
 - pelicanconf.py
 - publishconf.py
 - tasks.py
+
+# Generate output
+
+``` shell
+pelican -s pelicanconf.py -o output content
+```
+
+# First article in Markdown content
+
 
 # References
 
